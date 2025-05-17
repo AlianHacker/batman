@@ -379,6 +379,14 @@ td {
 	line-height: 16px;
 }
 
+.sub-input:invalid {
+  border-color: #ff4d4d;
+}
+
+.sub-input:valid {
+  border-color: #00cc66;
+}
+
 .sub-button {
 	background: #FF8F27;
 	border-radius: 0px 5px 5px 0px;
@@ -489,4 +497,26 @@ td {
 		display: inline-block;
 		width: 100%;
 	}
+}
+
+@media (max-width: 400px) {
+  .header {
+    padding-top: 20px;
+  }
+
+  .poster {
+    margin-top: 0% !important;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button {
+    padding: 8px 25px;
+    font-size: 12px;
+  }
+
+  .tabs-item {
+    font-size: 14px;
+  }
 }
